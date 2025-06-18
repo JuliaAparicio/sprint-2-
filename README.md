@@ -17,8 +17,8 @@ Desenvolver um sistema automatizado de gerenciamento de energia solar residencia
 2. Processamento
   • Verificação de faixa horária crítica: 17:30 ≤ horaAtual ≤ 20:30
   • Classificação de cargas:
-    Essenciais: Geladeira, Roteador Wi-Fi
-    Não essenciais: Televisor, Máquina de Lavar
+    Essenciais: Geladeira, Wi-Fi
+    Não essenciais: Televisão, Máquina de Lavar
 
 Lógica de decisão:
   • Durante o horário de pico: desligamento automático de cargas não essenciais
