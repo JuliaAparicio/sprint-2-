@@ -11,7 +11,7 @@ Desenvolver um sistema automatizado de gerenciamento de energia solar residencia
 ## Arquitetura do sistema:
 # - Codigo em python:
 1. Entrada de Dados:
-  • Fonte: Relógio do sistema operacional (RTC interno)
+  • Fonte: Relógio do sistema operacional (RTC interno,via biblioteca datetime com fuso horário pytz)
   • Dados obtidos: Horário atual (formato HH:MM)
 
 2. Processamento
@@ -27,8 +27,8 @@ Lógica de decisão:
 3. Saída e Monitoramento:
   • Interface de visualização (console ou dashboard):
   • Status de cada carga (ON/OFF)
-  • Horário atual
-  • Economia estimada de energia
+  • Horário atual (Fuso BR)
+  • Economia estimada de energia (Wh)
 
 # - Simulação TinkerCad:
  1. Entrada de Dados
