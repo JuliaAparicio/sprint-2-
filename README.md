@@ -30,6 +30,9 @@ Lógica de decisão:
   • Horário atual (Fuso BR)
   • Economia estimada de energia (Wh)
 
+![image](https://github.com/user-attachments/assets/1d47954e-9eb9-45e8-9153-5bd6f4a7f0f8)
+
+
 # - Simulação TinkerCad:
  1. Entrada de Dados
   • Variável simulada: horaAtual no formato inteiro (e.g. 1830 para 18h30)
