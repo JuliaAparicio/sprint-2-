@@ -69,9 +69,3 @@ Lógica de decisão:
     • Estado dos dispositivos (simulados com LEDs):
        HIGH: dispositivo ativo
        LOW: dispositivo desativado
-
-## Tecnologias utilizadas:
-- Linguagens: Python 3, C/C++ para Arduino
-- Plataformas: Tinkercad, Arduino IDE
-- Recursos físicos simulados: LEDs, pinos digitais
-- Energia: Fonte solar simulada (sistema fotovoltaico) 
