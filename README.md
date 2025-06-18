@@ -70,9 +70,6 @@ Lógica de decisão:
        HIGH: dispositivo ativo
        LOW: dispositivo desativado
 
-## Video:
-
-
 ## Tecnologias utilizadas:
 - Linguagens: Python 3, C/C++ para Arduino
 - Plataformas: Tinkercad, Arduino IDE
