@@ -32,26 +32,7 @@ Lógica de decisão:
 
 ![image](https://github.com/user-attachments/assets/1d47954e-9eb9-45e8-9153-5bd6f4a7f0f8)
 
-
-# - Simulação TinkerCad:
- 1. Entrada de Dados
-  • Variável simulada: horaAtual no formato inteiro (e.g. 1830 para 18h30)
-
- 2. Lógica de Processamento (Simulação de Automação)
-  • Função estaNoHorarioDePico() para validar faixa de horário
-  • Classificação de cargas:
-      Essenciais: Geladeira, Wi-Fi
-      Não essenciais: TV, Máquina de lavar
-  • Ações de controle:
-      Se horaAtual ∈ [1730, 2030]: manter apenas cargas essenciais ativadas
-      Caso contrário: todas as cargas são ativadas	
-
-3. Saída / Monitoramento
-   • Monitor Serial (via Arduino IDE):
-   • Indicação se o sistema está operando em modo de economia	
-   • Listagem das cargas ativas no momento	
-   • Atualização a cada 3 segundos	
-
+	
  # - Codigo Arduino:
  1. Entrada de Dados
    • Variável fixa: horaAtual = 1830 (pode ser substituída por módulo RTC no futuro)
@@ -72,3 +53,7 @@ Lógica de decisão:
     • Estado dos dispositivos (simulados com LEDs):
        HIGH: dispositivo ativo
        LOW: dispositivo desativado
+
+
+![image](https://github.com/user-attachments/assets/4985d392-2431-4432-b1bc-3a84a8471775)
+
